@@ -1,0 +1,21 @@
+
+Dane DeGoler
+9/8/16
+Period 3
+
+User input notes
+
+Since we can’t use spaces, capitalize the next word (firstName) instead of (firstname). Or you can put an underscore between the two words (first_name).
+
+Function calls should end with parenthesis [function_name()]
+
+One of the things that makes Python really simple is the act of taking user input. You take user input by calling the function input () and entering a prompt into the parenthesis.
+For example:
+variableName = input (“[prompt for user input]”) 
+
+The variableName is equal to the data value received from the input ().
+
+The data we get from input () is string data by default. So, we can use casting.
+
+Casting allows us to have one type of data and make it into another. We do this by wrapping the desired data in a casting statement, which is the type of data that you want to cast the object into, followed by a set of parentheses with the desired data inside.
+
