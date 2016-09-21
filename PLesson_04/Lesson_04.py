@@ -1,5 +1,5 @@
 def format (item,price):
-    print("{:.<10}\t{:10.2f}".format(item,price))
+    print("*{:.<10}\t{:10.2f}".format(item,price))
     
 item = input("What is your first item?")
 price = float(input("What does it cost?"))
@@ -10,6 +10,7 @@ price3 = float(input("What does it cost?"))
 
 Subtotal = price + price2 + price3
 Tax = Subtotal * .15
+
 Total = Subtotal + Tax
 
 print("<<<<<<<<<<<<<<<__Receipt__>>>>>>>>>>>>>>>")
