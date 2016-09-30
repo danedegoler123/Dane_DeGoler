@@ -1,6 +1,7 @@
 radius = float(input("Enter the radius of your circle: "))
 area = (3.14 * (radius**2))
 
+
 def calcArea(area):
     return("{:10.5f}".format(area))
 
