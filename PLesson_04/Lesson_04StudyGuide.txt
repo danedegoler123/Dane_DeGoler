@@ -4,7 +4,13 @@ Dane DeGoler
 Period 3
 
 
-1. print("The total cost of your order is {:5.2}".format(one,two))
-2. print("{:.<10}{:10.2f}f". format (one,two))
+1. print("The total cost of your order is ${:.2f}".format(one+two))
+2. print("{:15}......${:.2f}". format (one,two))
 3. D) nothing. The code will fail.
-4.
+4. return 6 *(side**2)
+5. print("The sum of{:0.0f} and {0.0f} is {:0.0f}". format(one, two, calcSum(one, two)))
+6. global radius
+7.A)
+8.D)
+9.D)
+10.B)
