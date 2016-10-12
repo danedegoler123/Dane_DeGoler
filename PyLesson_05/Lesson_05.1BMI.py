@@ -2,6 +2,7 @@ height = int(input("Enter your height in inches: "))
 weight = int(input("Enter your weight in pounds: "))
 
 condition = (weight / (height * height)) * 703
+bmi = 0
 
 def calcBMI(condition):
     if condition < 18.5:
