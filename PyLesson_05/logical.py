@@ -1,23 +1,23 @@
-##a = True
-##b = False
+a = True
+b = True
 
-##print(a and b)
+print(a and b)
 ##print(a or b)
 ##print( not (a or b) )
 
-import random
-
-def recursion():
-    guess =int(input("Pick a number between 1 and 10"))
-    number = random.randint(1, 10)
-    print("The number is ", number) 
-    if guess >= 5 and guess <= 10:
-        if guess == number:
-            print("The number is right!")
-        else:
-            print("Wrong!") 
-    else:
-        print("Please make it 1-10!")
-        recursion()
-
-recursion()
+##import random
+##
+##def recursion():
+##    guess =int(input("Pick a number between 1 and 10"))
+##    number = random.randint(1, 10)
+##    print("The number is ", number) 
+##    if guess >= 5 and guess <= 10:
+##        if guess == number:
+##            print("The number is right!")
+##        else:
+##            print("Wrong!") 
+##    else:
+##        print("Please make it 1-10!")
+##        recursion()
+##
+##recursion()
