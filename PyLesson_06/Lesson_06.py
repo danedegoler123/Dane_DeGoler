@@ -8,11 +8,11 @@
 ##    print(i) 
 
 
-#PRINTING RANGE HORIZONTALLY
-##output = ""
-##for i in range(1,11):
-##    output = output + str(i) + " "
-##print(output) 
+
+output = ""
+for i in range(1,11):
+    output = output + str(i) + " "
+print(output) 
 
 
 #EXAMPLE
