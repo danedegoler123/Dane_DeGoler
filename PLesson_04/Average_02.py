@@ -8,3 +8,4 @@ def calcAverage():
 
 print("The average of", one, two, three, "is", "{:10.5f}".format((one + two + three)/3))    
 
+calcAverage() 

@@ -1,4 +1,4 @@
-def format (item,price):
+def reciept(item,price):
     print("*{:.<10}\t{:10.2f}".format(item,price))
     
 item = input("What is your first item?")
@@ -23,3 +23,5 @@ format("Total: ", Total)
 print("_____________________________")
 
 print("*Thank you for your support*")      
+
+reciept(item,price)

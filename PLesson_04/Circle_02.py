@@ -8,3 +8,5 @@ def calcArea():
 
 
 print("The area of a circle with a radius of", radius ,"is","{:10.5f}".format(area))
+
+calcArea()

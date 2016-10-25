@@ -15,3 +15,5 @@ IDCard(schoolSite, schoolYear)
 IDCard(firstName, lastName)
 IDCard(title, subject)
 print("*************************************") 
+
+IDCard(first, last) 

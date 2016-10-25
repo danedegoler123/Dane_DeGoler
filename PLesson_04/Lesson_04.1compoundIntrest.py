@@ -10,6 +10,6 @@ life = float(input("What is the life of the loan in years? "))
 print("The total of your loan is", loan(Principal, interest, compound,life), "dollars.")
 
 
-
+loan(p, r, n, t) 
 
 

@@ -5,3 +5,5 @@ def calcSurf(sa):
     return("{:10.5f}".format(sa))
 
 print("The surface area of a cube with", side ,"sides is", sa)    
+
+calcSurf(sa) 

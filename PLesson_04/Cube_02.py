@@ -6,3 +6,5 @@ def calcSurf():
    sa = (6 * (side**2))
 
 print("The surface area of a cube with", side ,"sides is", "{:10.5f}".format(sa))   
+
+calcSurf()
