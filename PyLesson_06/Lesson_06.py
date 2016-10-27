@@ -9,10 +9,10 @@
 
 
 
-output = ""
-for i in range(1,11):
-    output = output + str(i) + " "
-print(output) 
+##output = ""
+##for i in range(1,11):
+##    output = output + str(i) + " "
+##print(output) 
 
 
 #EXAMPLE
@@ -52,10 +52,10 @@ print(output)
 ##    print(word[i]) 
 
 
-#CREATING A TRIANGLE BY A WORD (SMALL AT TOP, BIG AT BOTTOM)
-##word = input("Please enter a word: ")
-##def printTri():
-##    for i in range(0,len(word)+1):
-##        print(word[0:i])
-##printTri()
-##        
+
+word = input("Please enter a word: ")
+def printTri():
+    for i in range(0,len(word)+1):
+        print(word[0:i])
+printTri()
+        
