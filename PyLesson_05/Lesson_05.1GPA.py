@@ -1,3 +1,4 @@
+
 grade1 = input("Enter the letter grade for your first class: ")
 grade2 = input("Enter the letter grade for your second class: ")
 grade3 = input("Enter the letter grade for your third class: ")
