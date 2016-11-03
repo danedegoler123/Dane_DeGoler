@@ -1,3 +1,4 @@
+
 number = int(input("Please enter a number: "))
 sum = int(0)
 num = int(number)
