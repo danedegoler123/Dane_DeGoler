@@ -9,7 +9,8 @@ def luck(number):
     else:
         return 0
 
-print("You have",luck(number),"sevens in your number.") 
+print("You have",luck(number),"seven(s) in your number.") 
+
 
     
          
