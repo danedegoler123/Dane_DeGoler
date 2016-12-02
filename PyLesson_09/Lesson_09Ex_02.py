@@ -1,4 +1,4 @@
-words = ("Hello", "My", "Name", "Is", "Bob")
+words = ("ello", "My", "Name", "Is", "Bob")
 
 def first():
     global words
