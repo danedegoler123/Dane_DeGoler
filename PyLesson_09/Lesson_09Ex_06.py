@@ -1,3 +1,4 @@
+
 mathematicalExpression = input("Please enter a mathematical expression with spaces: ")
 equation = mathematicalExpression.split()
 i = 0
