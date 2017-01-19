@@ -8,6 +8,7 @@ class MilesPerHour:
     #Modifier
     def setDist(self, newDist):
         self.distance = newDist
+
     def setHrs(self, newHrs):
         self.hours = newHrs
     def setMins(self, newMins):
@@ -30,8 +31,6 @@ def main():
     minutes = int(input("Enter minutes: "))
 
     user1 = MilesPerHour(distance, hours, minutes)
-
-    
     print("Distance:", user1.getDistance(),"miles")
     print("Time: ", user1.getHours()," hours and", user1.getMinutes(),"minutes")
     print("Speed: ", user1.getMph(),"miles per hour")
@@ -39,10 +38,10 @@ def main():
     user1.setDist(20)
     user1.setHrs(5) 
     user1.setMins(0)
-
     print("Distance:", user1.getDistance(),"miles") 
     print("Time: ", user1.getHours(),"hours and", user1.getMinutes(),"minutes")
     print("Speed: ", user1.getMph(),"miles per hour")
 
 
 main() 
+
