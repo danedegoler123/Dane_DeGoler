@@ -1,3 +1,4 @@
+
 class Car:
     #Constructor
     def __init__(self, p="", i="", e="", t=""):
@@ -44,7 +45,7 @@ def main():
     user1.seti("Corinthian leather (brown)") 
     user1.sete("5 litre v8 507hp")
     user1.sett("20 inch Priellis") 
-    print("Your vehicle is ready.....")
+    print("The vehicle is ready.....")
     print("Paint: ", user1.getPaint()) 
     print("Interior: ", user1.getInterior())
     print("Engine: ", user1.getEngine())

@@ -1,3 +1,4 @@
+
 import math
 class Distance:
     #Constructor
@@ -27,8 +28,7 @@ class Distance:
     def getxTwo(self):
         return self.xTwo
     def getyTwo(self):
-        return
-    self.yTwo
+        return self.yTwo
     def getDistance(self):
         self.distance = math.sqrt((self.xTwo-self.xOne)*(self.xTwo-self.xOne)+(self.yTwo-self.yOne)*(self.yTwo-self.yOne))
         return self.distance
