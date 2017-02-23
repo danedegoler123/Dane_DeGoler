@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+h1{color: green;}
+p{
+	color: blue;
+	font-family: 'Barrio', cursive;}
+a{color: orange}
