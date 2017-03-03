@@ -1,0 +1,23 @@
+* {
+	color:blue;
+}
+
+tr:nth-child(odd) > td:nth-child(even){
+	background-color:green;
+}
+
+p:not(.notsport){
+	color: red;
+}
+
+tr:nth-child(odd) > td:nth-child(odd){
+	background-color:yellow;
+}
+
+tr:nth-child(even) > td:nth-child(odd){
+	background-color:green;
+}
+
+tr:nth-child(even) > td:nth-child(even){
+	background-color:yellow;
+}
