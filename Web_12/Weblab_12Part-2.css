@@ -28,14 +28,20 @@ body {
 }
 
 #topHeader {
-	background: green;
+	background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, purple);
 	border: 1px solid red;
 	padding: 20px;
+	-webkit-transition: -webkit-transform 2s;
 }
 
+#topHeader:hover {
+	-webkit-transform: rotate(720deg);
+	color: black;
+}
+	
 #topMenu {
-	background: pink;
-	color: purple;
+	background: green;
+	color: green;
 	
 }
 
@@ -44,14 +50,15 @@ body {
 	list-style: none;
 	padding: 5px;
 	font: bold 14px Raleway;
+	background: blue;
 	-webkit-border-radius: 3px;
 	-webkit-transition: -webkit-transform .5s;
 }
 
 
-#topMenu li: hover {
+#topMenu li:hover {
 	-webkit-transform: scale(1.2, 1.2);
-	color: yellow;
+	color: red
 }
 
 
@@ -61,12 +68,22 @@ body {
 	margin: 30px; /* 720 total pixels, 280 left*/
 }
 
+#mainSection > p {
+	text-shadow: black 1px 1px 3px;
+}
+
+
 #sideNews {
 	float: left;
 	width: 220px;
 	margin: 20px 0px;
 	padding: 30px;
-	background: #66CCCC;
+	background: -webkit-radial-gradient(center, circle, blue 20%, #66CCCC 80%);
+	-webkit-transition: -webkit-transform 1.5s;
+}
+
+#sideNews:hover{
+	-webkit-transform: scale(1.3,1.3) rotate(720deg);
 }
 
 #pagefooter {
@@ -76,11 +93,20 @@ body {
 	border-top: 2px solid green;
 }
 
+#pagefooter:hover{
+	-webkit-transform: scale(1.5,1.5);
+}
+
 article {
-	background: red;
+	background: -webkit-radial-gradient(center, circle, blue 20%, green 80%);
 	border: 1px solid purple;
 	padding: 20px;
 	margin-bottom: 15px;
+	-webkit-transition: -webkit-transform .5s;
+}
+
+article:hover{
+	-webkit-transform: scale(1.1,1.1)
 }
 
 article > footer {
